@@ -1,0 +1,198 @@
+[
+    {
+        "ticket_id": "JS-B13B6E2271",
+        "created_at": "2026-11-22T01:49:21.436782+00:00",
+        "complaint": "Garbage has not been collected for three days.",
+        "location": "Kalyan East",
+        "language": "English",
+        "category": "Garbage Collection",
+        "problem_summary": "Garbage collection has been delayed.",
+        "urgency": "Medium",
+        "duration": "3 days",
+        "assigned_department": "Sanitation Department",
+        "department_id": "DEPT001",
+        "routing_status": "matched",
+        "status": "Submitted - Demo",
+        "needs_human_review": false,
+        "image_evidence": null
+    },
+    {
+        "ticket_id": "JS-BDB3400D9B",
+        "created_at": "2026-11-22T02:05:32.553290+00:00",
+        "complaint": "In In my In my area In my area In my area In my area In my area there In my area there is In my area there is a In my area there is a gar In my area there is a garb In my area there is a garbage In my area there is a garbage In my area there is a garbage In my area there is a garbage from In my area there is a garbage from In my area there is a garbage from In my area there is a garbage from In my area there is a garbage from three In my area there is a garbage from three days In my area there is a garbage from three days In my area there is a garbage from three days",
+        "location": "kalyan",
+        "language": "English",
+        "category": "Garbage Collection",
+        "problem_summary": "Uncollected garbage accumulation in the area for the past three days.",
+        "urgency": "Medium",
+        "duration": "3 days",
+        "assigned_department": "Sanitation Department",
+        "department_id": "DEPT001",
+        "routing_status": "matched",
+        "status": "Submitted - Demo",
+        "needs_human_review": false,
+        "image_evidence": {
+            "ai_models": {
+                "gemini": {
+                    "category": "Garbage Collection",
+                    "evidence_observations": [
+                        "Accumulation of garbage bags on the pedestrian pathway",
+                        "Some bags appear open or overflowing with plastic and waste materials",
+                        "Placement of garbage is on the street pavement rather than in a designated bin"
+                    ],
+                    "issue_detected": true,
+                    "limitations": [
+                        "Exact duration of the garbage accumulation cannot be determined from the image alone"
+                    ],
+                    "needs_human_review": false,
+                    "visible_condition": "Several black garbage bags filled with waste are piled up on a paved sidewalk next to a building wall.",
+                    "visible_objects": [
+                        "black garbage bags",
+                        "paved sidewalk",
+                        "building wall",
+                        "sign post",
+                        "discarded waste"
+                    ]
+                },
+                "yolo": {
+                    "detection_count": 1,
+                    "detections": [
+                        {
+                            "bbox_xyxy": [
+                                10.34,
+                                112.61,
+                                134.88,
+                                229.8
+                            ],
+                            "class": "garbage",
+                            "confidence": 0.7761
+                        }
+                    ]
+                }
+            },
+            "category": "Garbage Collection",
+            "complaint_evidence_match": "Consistent",
+            "evidence_comparison": {
+                "conflicting_observations": [],
+                "match_status": "Consistent",
+                "needs_human_review": false,
+                "reason": "The citizen's complaint reports garbage in their area, and the image analysis clearly detects an accumulation of garbage bags on a paved sidewalk.",
+                "supporting_observations": [
+                    "Garbage category confirmed by image analysis",
+                    "Visible black garbage bags and discarded waste piled on the sidewalk"
+                ]
+            },
+            "evidence_observations": [
+                "Accumulation of garbage bags on the pedestrian pathway",
+                "Some bags appear open or overflowing with plastic and waste materials",
+                "Placement of garbage is on the street pavement rather than in a designated bin"
+            ],
+            "issue_detected": true,
+            "limitations": [
+                "Exact duration of the garbage accumulation cannot be determined from the image alone"
+            ],
+            "model_agreement": true,
+            "needs_human_review": false,
+            "visible_condition": "Several black garbage bags filled with waste are piled up on a paved sidewalk next to a building wall.",
+            "visible_objects": [
+                "black garbage bags",
+                "paved sidewalk",
+                "building wall",
+                "sign post",
+                "discarded waste"
+            ],
+            "yolo_categories": [
+                "Garbage Collection"
+            ]
+        }
+    },
+    {
+        "ticket_id": "JS-B32FC0134E",
+        "created_at": "2026-11-22T02:45:14.992848+00:00",
+        "complaint": "In In my In my area In my area In my area In my area In my area there In my area there is In my area there is a In my area there is a In my area there is a In my area there is a In my area there is a gar In my area there is a garbage In my area there is a garbage from In my area there is a garbage from In my area there is a garbage from In my area there is a garbage from three In my area there is a garbage from three days In my area there is a garbage from three days In my area there is a garbage from three days",
+        "location": "kalyan",
+        "language": "English",
+        "category": "Garbage Collection",
+        "problem_summary": "Garbage has not been collected for three days.",
+        "urgency": "Medium",
+        "duration": "three days",
+        "assigned_department": "Sanitation Department",
+        "department_id": "DEPT001",
+        "routing_status": "matched",
+        "status": "Submitted - Demo",
+        "needs_human_review": false,
+        "image_evidence": {
+            "ai_models": {
+                "gemini": {
+                    "category": "Roads and Potholes",
+                    "evidence_observations": [
+                        "A deep pothole is present on the paved surface",
+                        "Extensive alligator cracking is visible around the pothole",
+                        "Water has accumulated inside the pothole"
+                    ],
+                    "issue_detected": true,
+                    "limitations": [
+                        "The image is a close-up shot and does not show the surrounding environment or exact location context."
+                    ],
+                    "needs_human_review": false,
+                    "visible_condition": "The road surface is severely cracked and damaged with a large pothole containing standing water.",
+                    "visible_objects": [
+                        "asphalt road",
+                        "pothole",
+                        "cracks",
+                        "standing water"
+                    ]
+                },
+                "yolo": {
+                    "detection_count": 1,
+                    "detections": [
+                        {
+                            "bbox_xyxy": [
+                                48.94,
+                                58.35,
+                                227.95,
+                                115.78
+                            ],
+                            "class": "pothole",
+                            "confidence": 0.9105
+                        }
+                    ]
+                }
+            },
+            "category": "Roads and Potholes",
+            "complaint_evidence_match": "Mismatch",
+            "evidence_comparison": {
+                "conflicting_observations": [
+                    "Citizen complaint is about garbage accumulation",
+                    "Image analysis detects a damaged road surface with a pothole and standing water"
+                ],
+                "match_status": "Mismatch",
+                "needs_human_review": true,
+                "reason": "The citizen complaint reports a garbage issue for three days, whereas the image analysis clearly detects a road infrastructure issue specifically concerning a pothole and damaged road surface.",
+                "supporting_observations": []
+            },
+            "evidence_observations": [
+                "A deep pothole is present on the paved surface",
+                "Extensive alligator cracking is visible around the pothole",
+                "Water has accumulated inside the pothole"
+            ],
+            "issue_detected": true,
+            "limitations": [
+                "The image is a close-up shot and does not show the surrounding environment or exact location context.",
+                "The photograph does not appear to support the citizen's complaint."
+            ],
+            "model_agreement": true,
+            "needs_human_review": true,
+            "visible_condition": "The road surface is severely cracked and damaged with a large pothole containing standing water.",
+            "visible_objects": [
+                "asphalt road",
+                "pothole",
+                "cracks",
+                "standing water"
+            ],
+            "yolo_categories": [
+                "Roads and Potholes"
+            ]
+        }
+    }
+]
